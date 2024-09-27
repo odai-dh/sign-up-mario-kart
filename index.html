@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Sign-Up</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Tournament Sign-Up</h1>
+        <form id="tournamentForm" action="#" method="POST"> <!-- Form action to handle submissions -->
+            <!-- Full Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <!-- Grade or Class -->
+            <label for="grade">Grade/Class:</label>
+            <input type="text" id="grade" name="grade" required placeholder="Enter your grade or class">
+
+            <!-- Experience Level -->
+            <label for="experience">Experience Level:</label>
+            <select id="experience" name="experience" required>
+                <option value="">Select your experience</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+<script src="java.js"></script>
+</body>
+</html>
